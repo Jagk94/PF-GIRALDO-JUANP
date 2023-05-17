@@ -1,0 +1,27 @@
+/* page sneakers */
+/* images sneakers */
+.fotos-sneakers {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: normal;
+    align-items: center;
+
+}
+
+.fotos-sneakers img {
+    margin-left: 40px;
+    width: 180px;
+    height: 180px;
+
+}
+
+.fotos-sneakers p {
+    position: relative;
+   
+
+
+}

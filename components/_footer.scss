@@ -1,0 +1,18 @@
+/* footer de todas las pages*/
+.social-network ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #F8F9FA;
+    padding-bottom: 20px;
+    padding-top: 20px;
+ 
+}
+.social-network ul li {
+ list-style: none; 
+}
+.social-network ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
