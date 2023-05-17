@@ -31,7 +31,7 @@
 
 @media screen {
   .photo-grid-item img {
-    margin-left: 0 !important;
+    margin-left: 0;
   }
 }
 
