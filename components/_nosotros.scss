@@ -15,9 +15,13 @@
    align-items: center;
    border-radius: 10px;
    margin-left: 135px;
-  
-    
-    
+   
+}
+.card img, .card2 img {
+    @media screen {
+        width: 100%;
+        margin-left: 0;
+    }
 }
 
 .card2 {

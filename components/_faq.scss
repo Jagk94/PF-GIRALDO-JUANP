@@ -8,4 +8,13 @@
 .faq {
     padding-right: 50px;
     padding-left: 50p;
+    @media screen {
+        padding-left: 50px;
+    }
 }
+.faq h1 h3 {
+    @media screen {
+        margin-top: 20px;
+    }
+}
+

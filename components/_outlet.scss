@@ -9,6 +9,9 @@
     flex-wrap: wrap;
     align-content: normal;
     align-items: center;
+    @media screen {
+        height: auto;
+    }
 
 }
 
@@ -16,9 +19,16 @@
     margin-left: 40px;
     width: 180px;
     height: 180px;
+    @media screen {
+        margin-left: 0;
+        margin-top: 20px;
+    }
 }
 .fotos-outlet h1 {
    text-align: center;
 margin-bottom: 20px;
+@media screen {
+    margin-top: 20px;
+}
 
 }

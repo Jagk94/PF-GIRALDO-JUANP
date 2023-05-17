@@ -21,6 +21,11 @@
 .photo-grid-item img:first-child{
     margin-left: 40px;
     width: 250px;
-    height: 250px;
-    
+    height: 250px;  
+}
+
+.photo-grid-item img {
+@media screen {
+    margin-left: 0 !important;   
+}
 }

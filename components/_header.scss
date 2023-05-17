@@ -5,6 +5,10 @@ header {
     padding: 10px;
     align-items: center;
     max-width: 100vw;
+    @media screen and (max-width: 768px) {
+         header img{ 
+        width: 150px;  
+    }
 }
 
 header nav ul {
@@ -19,4 +23,5 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
 
+}
 }

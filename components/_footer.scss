@@ -6,6 +6,13 @@
     background-color: #F8F9FA;
     padding-bottom: 20px;
     padding-top: 20px;
+   @media screen { flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 0;
+    align-items: center;
+    margin-bottom: 0;
+    
+   }
  
 }
 .social-network ul li {
