@@ -6,7 +6,8 @@
     background-color: #F8F9FA;
     padding-bottom: 20px;
     padding-top: 20px;
-   @media screen { flex-wrap: wrap;
+   @media screen and (max-width: 768px) {
+     flex-wrap: wrap;
     flex-direction: column;
     padding-left: 0;
     align-items: center;

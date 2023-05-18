@@ -8,13 +8,14 @@
 .faq {
     padding-right: 50px;
     padding-left: 50p;
-    @media screen {
+    @media screen and (max-width: 768px) {
         padding-left: 50px;
     }
 }
 .faq h1 h3 {
-    @media screen {
-        margin-top: 20px;
+    @media screen and (max-width: 768px) {
+        margin-top: 20px;}
+     
     }
-}
+
 

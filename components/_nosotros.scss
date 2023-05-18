@@ -18,7 +18,7 @@
    
 }
 .card img, .card2 img {
-    @media screen {
+    @media screen and (max-width: 768px) {
         width: 100%;
         margin-left: 0;
     }

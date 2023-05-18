@@ -54,6 +54,13 @@
   margin-left: 135px;
 }
 
+@media screen {
+  .card img, .card2 img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
 .card2 {
   width: 100%;
   height: auto;
@@ -92,11 +99,22 @@
   align-content: normal;
   align-items: center;
 }
+@media screen {
+  .fotos-sneakers {
+    height: auto;
+  }
+}
 
 .fotos-sneakers img {
   margin-left: 40px;
   width: 180px;
   height: 180px;
+}
+@media screen {
+  .fotos-sneakers img {
+    margin-left: 0;
+    margin-top: 20px;
+  }
 }
 
 .fotos-sneakers p {
@@ -113,6 +131,17 @@
   padding-right: 50px;
   padding-left: 50p;
 }
+@media screen and (max-width: 768px) {
+  .faq {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .faq h1 h3 {
+    margin-top: 20px;
+  }
+}
 
 /* page outlet */
 /* image outlet */
@@ -126,16 +155,32 @@
   align-content: normal;
   align-items: center;
 }
+@media screen {
+  .fotos-outlet {
+    height: auto;
+  }
+}
 
 .fotos-outlet img {
   margin-left: 40px;
   width: 180px;
   height: 180px;
 }
+@media screen {
+  .fotos-outlet img {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
 
 .fotos-outlet h1 {
   text-align: center;
   margin-bottom: 20px;
+}
+@media screen {
+  .fotos-outlet h1 {
+    margin-top: 20px;
+  }
 }
 
 /* header de todas las pages*/
@@ -170,6 +215,15 @@ header header nav ul li a {
   background-color: #F8F9FA;
   padding-bottom: 20px;
   padding-top: 20px;
+}
+@media screen {
+  .social-network ul {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 0;
+    align-items: center;
+    margin-bottom: 0;
+  }
 }
 
 .social-network ul li {
