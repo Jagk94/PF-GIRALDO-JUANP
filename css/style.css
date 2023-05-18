@@ -29,7 +29,7 @@
   height: 250px;
 }
 
-@media screen {
+@media screen and (max-width: 768px){
   .photo-grid-item img {
     margin-left: 0;
   }
@@ -54,7 +54,7 @@
   margin-left: 135px;
 }
 
-@media screen {
+@media screen and (max-width: 768px) {
   .card img, .card2 img {
     width: 100%;
     margin-left: 0;
@@ -99,7 +99,7 @@
   align-content: normal;
   align-items: center;
 }
-@media screen {
+@media screen and (max-width: 768px) {
   .fotos-sneakers {
     height: auto;
   }
@@ -110,7 +110,7 @@
   width: 180px;
   height: 180px;
 }
-@media screen {
+@media screen and (max-width: 768px) {
   .fotos-sneakers img {
     margin-left: 0;
     margin-top: 20px;
@@ -155,7 +155,7 @@
   align-content: normal;
   align-items: center;
 }
-@media screen {
+@media screen and (max-width: 768px) {
   .fotos-outlet {
     height: auto;
   }
@@ -166,7 +166,7 @@
   width: 180px;
   height: 180px;
 }
-@media screen {
+@media screen and (max-width: 768px) {
   .fotos-outlet img {
     margin-left: 0;
     margin-top: 20px;
@@ -177,7 +177,7 @@
   text-align: center;
   margin-bottom: 20px;
 }
-@media screen {
+@media screen and (max-width: 768px) {
   .fotos-outlet h1 {
     margin-top: 20px;
   }
@@ -216,7 +216,7 @@ header header nav ul li a {
   padding-bottom: 20px;
   padding-top: 20px;
 }
-@media screen {
+@media screen and (max-width: 768px) {
   .social-network ul {
     flex-wrap: wrap;
     flex-direction: column;
