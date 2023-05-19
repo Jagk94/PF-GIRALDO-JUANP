@@ -17,6 +17,7 @@
    align-items: center;
    border-radius: 10px;
 }
+
 .card img, .card2 img {
     @media screen and (max-width: 768px) {
         width: 100%;
@@ -37,12 +38,9 @@
 .card2 img {
     width: 1000px;
     align-items: center;
-    border-radius: 10px;
- 
- 
-    
-    
+    border-radius: 10px; 
 }
+
 .card h3{
     margin-top: 15px;
     font-weight: 700;
