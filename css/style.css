@@ -35,6 +35,11 @@
   }
 }
 
+.title-new-season {
+  text-shadow: black;
+  text-align: center;
+}
+
 /* pagina nosotros*/
 .card {
   width: 100%;
