@@ -1,2 +1,34 @@
+/* faq page*/
+.faq p {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    color: #642a73;
 
+}
+.contenedor-textos-faq h3 span {
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+    
+    
+}
+    @media screen and (max-width: 500) {
+        .faq {
+            padding-right: 50px;
+            padding-left: 50p;
+        padding-left: 50px;
+    }
+}
+    @media screen and (max-width: 500) {
+        .faq h1 h3 {
+             margin-top: 20px;
+       }
+    }
 

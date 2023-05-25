@@ -26,17 +26,17 @@ body {
 
 /* Galeria */
 
-.portafolio{
+.galeria-home{
     background: #f2f2f2;
 }
 
-.galeria-port{
+.galeria-cont{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.imagen-port{
+.imagen-cont{
     width: 24%;
     margin-bottom: 10px;
     overflow: hidden;
@@ -46,17 +46,17 @@ body {
 }
 
 @media screen and (max-width:900px){
-    .imagen-port{
+    .imagen-cont{
         width: 44%;
     }
     @media screen and (max-width:500px){
-        .imagen-port{
+        .imagen-cont{
         width: 95%;
         }
     }
 }
 
-.imagen-port > img{
+.imagen-cont > img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -85,11 +85,11 @@ body {
     color: #fff;
 }
 
-.imagen-port:hover .hover-galeria{
+.imagen-cont:hover .hover-galeria{
     transform: scale(1);
 }
 
-/* Clients */
+/* Clientes */
 
 .cards{
     display: flex;
@@ -154,7 +154,7 @@ body {
     }
 }
 
-/* Our team */
+/* social network*/
 .social-network{
     background: #f2f2f2;
     padding-bottom: 30px;
@@ -287,13 +287,13 @@ footer{
         background: #f2f2f2;
     }
     
-    .galeria-port{
+    .galeria-cont{
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
     
-    .imagen-port{
+    .imagen-cont{
         width: 24%;
         margin-bottom: 10px;
         overflow: hidden;
@@ -303,17 +303,17 @@ footer{
     }
     
     @media screen and (max-width:900px){
-        .imagen-port{
+        .imagen-cont{
             width: 44%;
         }
         @media screen and (max-width:500px){
-            .imagen-port{
+            .imagen-cont{
             width: 95%;
             }
         }
     }
     
-    .imagen-port > img{
+    .imagen-cont > img{
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -342,7 +342,7 @@ footer{
         color: #fff;
     }
     
-    .imagen-port:hover .hover-galeria{
+    .imagen-cont:hover .hover-galeria{
         transform: scale(1);
     }
 

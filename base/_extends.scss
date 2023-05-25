@@ -1,0 +1,62 @@
+/* Social network */
+.social-network{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+
+.social-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social{
+    width: 28%;
+    text-align: center;
+}
+
+.social img{
+    width: 100%;
+    height: 300px;
+    
+}
+
+.social h3{
+    margin: 10px 0;
+}
+
+.social li {
+    list-style: none;
+}
+
+.social li a {
+    text-decoration: none;
+    color: #642a73;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.social p{
+    font-weight: 300;
+    text-align: justify;
+}
+@media screen and (max-width:900px){
+    .social-container{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .social{
+        width: 100%;
+        text-align: center;
+    }
+
+    .social:nth-child(1), .servicio-ind:nth-child(2){
+        margin-bottom: 60px;
+    }
+
+    .social img{
+        width: 90%;
+    }
+}
