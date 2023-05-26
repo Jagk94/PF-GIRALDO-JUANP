@@ -1,9 +1,12 @@
 # PF-GIRALDO-JUANP
-Entrega coder house/ desarrollo web
 <h1 align="center">Hi 👋, I'm JuanPi Giraldo</h1>
 <h3 align="center">A student frontend developer from CODER-HOUSE</h3>
 
-- 🔭 I’m currently working on [Proyecto final desarrollo web](https://github.com/Jagk94/PF-GIRALDO-JUANP.git)
+- 🔭 I’m currently working on [Proyecto final desarrollo, link de Github web](https://github.com/Jagk94/PF-GIRALDO-JUANP.git)
+
+- 🤝 I’m looking to collaborate on [Link Github Pages](https://jagk94.github.io/PF-GIRALDO-JUANP/)
+
+- 🤝 I’m looking for help with [Link infintyfree](http://pf-giraldo-juanp.infinityfreeapp.com/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
